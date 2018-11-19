@@ -5,7 +5,7 @@ Just a desprate attempt to run gdx-ai-test, you can clone this repository and ru
 
 gradle desktop:run 
 
-Modify build.gradle in desktop folder to run different test, uncomment the test you want to run
+Modify build.gradle in desktop folder to run different test, uncomment the test to run it.
 
 I have taken these test from the main gdx-ai repository. Have a look at their main repository "gdx-ai"
 
