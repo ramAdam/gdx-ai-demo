@@ -3,11 +3,11 @@ apply plugin: "java"
 sourceCompatibility = 1.6
 sourceSets.main.java.srcDirs = [ "src/" ]
 
-project.ext.mainClassName = "com.badlogic.gdx.ai.tests.SteeringBehaviorsTest"
+// project.ext.mainClassName = "com.badlogic.gdx.ai.tests.SteeringBehaviorsTest"
 // project.ext.mainClassName = "com.badlogic.gdx.ai.tests.StateMachineTest"
 // project.ext.mainClassName = "com.badlogic.gdx.ai.tests.PathFinderTests"
 // project.ext.mainClassName = "com.badlogic.gdx.ai.tests.MessageTests"
-// project.ext.mainClassName = "com.badlogic.gdx.ai.tests.BehaviorTreeTests"
+project.ext.mainClassName = "com.badlogic.gdx.ai.tests.BehaviorTreeTests"
 
 
 project.ext.assetsDir = new File("../core/assets");
